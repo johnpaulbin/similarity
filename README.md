@@ -6,8 +6,8 @@ Usage:
 ```python
 sentences = {
   'You are awesome!': 1,
-  'You aren't so great.': 0,
-  'Hmm, I don't know': 0,
+  "You aren't so great.": 0,
+  "Hmm, I don't know": 0,
   'Oh yeah nice work!': 1,
   ...
 }

@@ -9,14 +9,14 @@ sentences = {
   "You aren't so great.": 0,
   "Hmm, I don't know": 0,
   'Oh yeah nice work!': 1,
-  ...
+  # More sentences usually make the results more accurate.
 }
 
 from similarity import similar
 sim = similar(sentences)
 
 tests = [
-  "Whoa! Never thought of that before! Cool!",
+  "Cool!",
   "Nah, this is not it..."
 ]
 
